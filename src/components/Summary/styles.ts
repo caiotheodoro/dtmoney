@@ -23,9 +23,19 @@ export const Container = styled.div`
             font-weight: 500;
             line-height: 3rem;
         }
-        &.highlight-background {
+        &.positive {
             background: var(--green);
             color: #FFF;
+        }
+        &.negative {
+            background: var(--red);
+            color: #FFF;
+
+        }
+        &.empty {
+            background: var(--text-title);
+            color: #FFF;
+
         }
     }
 `;
